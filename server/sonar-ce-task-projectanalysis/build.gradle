@@ -1,7 +1,3 @@
-plugins {
-    id 'java-library'
-}
-
 description = 'Code of the Compute Engine task processing project analysis reports'
 
 sonarqube {

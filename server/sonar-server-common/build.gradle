@@ -1,7 +1,3 @@
-plugins {
-    id 'java-library'
-}
-
 description = 'Code shared between the Web Server and the Compute Engine'
 
 sonarqube {

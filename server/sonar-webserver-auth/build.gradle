@@ -1,7 +1,3 @@
-plugins {
-    id 'java-library'
-}
-
 sonarqube {
   properties {
     property 'sonar.projectName', "${projectTitle} :: WebServer :: Authentification and Identity"

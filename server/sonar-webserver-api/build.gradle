@@ -1,7 +1,3 @@
-plugins {
-    id 'java-library'
-}
-
 description = 'SonarQube WebServer internal APIs, used by other Web Server modules or Core Extensions'
 
 sonarqube {
