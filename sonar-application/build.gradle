@@ -97,6 +97,7 @@ task downloadElasticSearch(type: Download) {
   }
   dest "$buildDir/$elasticsearchDownloadUrlFile"
 
+  // Download plugin is setting upToDateWhen to false when any of onlyIfModified or overwrite are true
   onlyIfModified false
   overwrite false
 
